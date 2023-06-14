@@ -1,3 +1,110 @@
+/* 
+Project: One Page
+Author : Deniz Arslan
+Date   : 14 June 2023
+Version: v.1 */
+
+/* ############################################# */
+/* Root */
+
+/* ############################################# */
+/* Common Property */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
 body {
   font-family: "Noto Sans", sans-serif;
+  line-height: 1.2;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+img:hover {
+  opacity: 0.5;
+  box-shadow: 1px 1px 4px 10px red;
+  transition: all 2s;
+  cursor: pointer;
+}
+
+i {
+  font-size: 1.5rem;
+}
+
+.my_clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* my special size */
+.fSize1 {
+  font-size: 1rem;
+}
+
+.fSize2 {
+  font-size: 2rem;
+}
+
+.fSize3 {
+  font-size: 3rem;
+}
+
+.fSize4 {
+  font-size: 4rem;
+}
+
+/* Line clamp */
+
+.line-clamp5 {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+}
+
+.line-clamp8 {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 8;
+}
+
+.line-clamp10 {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 10;
+}
+
+/* ######################### */
+/*Header*/
+
+header {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAAUlTxwgHHY5gfsqblmpcpLRamvC9g_aTIYivaV-s-w&s);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -1;
+  height: 70vh;
+  padding-top: 8rem;
 }
