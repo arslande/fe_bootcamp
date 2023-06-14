@@ -1,6 +1,6 @@
 # fe_bootcamp for individuals
 --------
-##Authoor: Deniz Arslan
+Authoor: Deniz Arslan
 -------
 ##Frontend
 ```
